@@ -7,6 +7,12 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 // Strony
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import ProjectViewer from "./components/ProjectViewer";
+import LiveProjectViewer from "./components/LiveProjectViewer";
+import ProjectRenderer from "./components/ProjectRenderer";
+import DynamicProjectRenderer from "./components/DynamicProjectRenderer";
 
 // Konfiguracja React Query
 const queryClient = new QueryClient({
@@ -27,7 +33,12 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-            {/* Tutaj dodajemy nowe ścieżki */}
+            <Route path="/polityka-prywatnosci" element={<PrivacyPolicy />} />
+            <Route path="/regulamin" element={<TermsOfService />} />
+            <Route path="/projekty/:projectId" element={<ProjectViewer />} />
+            <Route path="/live/:projectId" element={<LiveProjectViewer />} />
+            <Route path="/render/:projectId" element={<ProjectRenderer />} />
+            <Route path="/demo/:projectId" element={<DynamicProjectRenderer />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

@@ -2,7 +2,7 @@
   "name": "webdev-pro-website",
   "private": true,
   "version": "1.0.0",
-  "description": "Profesjonalna strona internetowa firmy WebDev Pro",
+  "description": "Profesjonalna strona internetowa firmy TechFlow Solutions",
   "type": "module",
   "scripts": {
     "dev": "vite",

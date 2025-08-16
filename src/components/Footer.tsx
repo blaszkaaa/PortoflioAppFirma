@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -39,7 +40,7 @@ function Footer() {
             {/* Informacje o firmie */}
             <div className="md:col-span-2">
               <h3 className="font-bold text-2xl mb-4 text-background">
-                WebDev Pro
+                TechFlow Solutions
               </h3>
               <p className="text-background/80 mb-6 max-w-md">
                 Tworzymy nowoczesne strony internetowe i aplikacje webowe, 
@@ -48,7 +49,7 @@ function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 mr-3 text-primary" />
-                  <span className="text-background/80">kontakt@webdevpro.pl</span>
+                  <span className="text-background/80">kontakt@techflowsolutions.pl</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 mr-3 text-primary" />
@@ -99,21 +100,21 @@ function Footer() {
           <div className="mt-12 pt-8 border-t border-background/20">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-background/60 text-sm">
-                © {currentYear} WebDev Pro. Wszystkie prawa zastrzeżone.
+                © {currentYear} TechFlow Solutions. Wszystkie prawa zastrzeżone.
               </div>
               <div className="flex space-x-6 mt-4 md:mt-0">
-                <a 
-                  href="#" 
+                <Link 
+                  to="/polityka-prywatnosci" 
                   className="text-background/60 hover:text-background text-sm transition-colors"
                 >
                   Polityka prywatności
-                </a>
-                <a 
-                  href="#" 
+                </Link>
+                <Link 
+                  to="/regulamin" 
                   className="text-background/60 hover:text-background text-sm transition-colors"
                 >
                   Regulamin
-                </a>
+                </Link>
               </div>
             </div>
           </div>

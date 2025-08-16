@@ -1,8 +1,8 @@
-# WebDev Pro - Profesjonalna strona internetowa
+# TechFlow Solutions - Profesjonalna strona internetowa
 
 ## O projekcie
 
-Strona internetowa firmy WebDev Pro - profesjonalnej agencji web developmentowej specjalizującej się w tworzeniu nowoczesnych stron internetowych, sklepów online i aplikacji webowych.
+Strona internetowa firmy TechFlow Solutions - profesjonalnej agencji web developmentowej specjalizującej się w tworzeniu nowoczesnych stron internetowych, sklepów online i aplikacji webowych.
 
 ## Funkcjonalności
 
@@ -96,8 +96,8 @@ Zbudowane pliki znajdziesz w katalogu `dist/`.
 
 ## Kontakt
 
-W przypadku pytań lub problemów z projektem, skontaktuj się z zespołem WebDev Pro.
+W przypadku pytań lub problemów z projektem, skontaktuj się z zespołem TechFlow Solutions.
 
 ---
 
-© 2024 WebDev Pro. Wszystkie prawa zastrzeżone.
+© 2024 TechFlow Solutions. Wszystkie prawa zastrzeżone.
